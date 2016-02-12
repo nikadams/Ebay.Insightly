@@ -2,12 +2,12 @@
 <testng-results skipped="0" failed="2" total="4" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="EbayListingTestSuite" duration-ms="89804" started-at="2016-02-12T04:54:00Z" finished-at="2016-02-12T04:55:30Z">
+  <suite name="EbayListingTestSuite" duration-ms="90325" started-at="2016-02-12T05:26:49Z" finished-at="2016-02-12T05:28:20Z">
     <groups>
     </groups>
-    <test name="EbayListingsTest_Chrome" duration-ms="80011" started-at="2016-02-12T04:54:00Z" finished-at="2016-02-12T04:55:20Z">
+    <test name="EbayListingsTest_Chrome" duration-ms="72902" started-at="2016-02-12T05:26:49Z" finished-at="2016-02-12T05:28:02Z">
       <class name="com.webdriver.na.ebay.tests.EbayListingsTest">
-        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:com.webdriver.na.ebay.tests.EbayListingsTest@10000ccd]" name="setUp" is-config="true" duration-ms="2391" started-at="2016-02-11T20:54:00Z" finished-at="2016-02-11T20:54:03Z">
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:com.webdriver.na.ebay.tests.EbayListingsTest@10000ccd]" name="setUp" is-config="true" duration-ms="2021" started-at="2016-02-11T21:26:50Z" finished-at="2016-02-11T21:26:52Z">
           <params>
             <param index="0">
               <value>
@@ -18,7 +18,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="verifySearchListingsCount(java.lang.String)[pri:0, instance:com.webdriver.na.ebay.tests.EbayListingsTest@10000ccd]" name="verifySearchListingsCount" duration-ms="19804" started-at="2016-02-11T20:54:03Z" data-provider="provider" finished-at="2016-02-11T20:54:22Z">
+        <test-method status="PASS" signature="verifySearchListingsCount(java.lang.String)[pri:0, instance:com.webdriver.na.ebay.tests.EbayListingsTest@10000ccd]" name="verifySearchListingsCount" duration-ms="50002" started-at="2016-02-11T21:26:52Z" data-provider="provider" finished-at="2016-02-11T21:27:42Z">
           <params>
             <param index="0">
               <value>
@@ -29,11 +29,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifySearchListingsCount -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.webdriver.na.ebay.tests.EbayListingsTest@10000ccd]" name="tearDown" is-config="true" duration-ms="2052" started-at="2016-02-11T20:54:22Z" finished-at="2016-02-11T20:54:24Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.webdriver.na.ebay.tests.EbayListingsTest@10000ccd]" name="tearDown" is-config="true" duration-ms="1791" started-at="2016-02-11T21:27:42Z" finished-at="2016-02-11T21:27:44Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:com.webdriver.na.ebay.tests.EbayListingsTest@10000ccd]" name="setUp" is-config="true" duration-ms="1336" started-at="2016-02-11T20:54:24Z" finished-at="2016-02-11T20:54:26Z">
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:com.webdriver.na.ebay.tests.EbayListingsTest@10000ccd]" name="setUp" is-config="true" duration-ms="1459" started-at="2016-02-11T21:27:44Z" finished-at="2016-02-11T21:27:45Z">
           <params>
             <param index="0">
               <value>
@@ -44,7 +44,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="FAIL" signature="verifySearchListingsCount(java.lang.String)[pri:0, instance:com.webdriver.na.ebay.tests.EbayListingsTest@10000ccd]" name="verifySearchListingsCount" duration-ms="52563" started-at="2016-02-11T20:54:26Z" data-provider="provider" finished-at="2016-02-11T20:55:18Z">
+        <test-method status="FAIL" signature="verifySearchListingsCount(java.lang.String)[pri:0, instance:com.webdriver.na.ebay.tests.EbayListingsTest@10000ccd]" name="verifySearchListingsCount" duration-ms="15684" started-at="2016-02-11T21:27:45Z" data-provider="provider" finished-at="2016-02-11T21:28:01Z">
           <params>
             <param index="0">
               <value>
@@ -88,15 +88,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifySearchListingsCount -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.webdriver.na.ebay.tests.EbayListingsTest@10000ccd]" name="tearDown" is-config="true" duration-ms="1431" started-at="2016-02-11T20:55:18Z" finished-at="2016-02-11T20:55:20Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.webdriver.na.ebay.tests.EbayListingsTest@10000ccd]" name="tearDown" is-config="true" duration-ms="1469" started-at="2016-02-11T21:28:01Z" finished-at="2016-02-11T21:28:02Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.webdriver.na.ebay.tests.EbayListingsTest -->
     </test> <!-- EbayListingsTest_Chrome -->
-    <test name="EbayListingsTest_Firefox" duration-ms="89804" started-at="2016-02-12T04:54:00Z" finished-at="2016-02-12T04:55:30Z">
+    <test name="EbayListingsTest_Firefox" duration-ms="90325" started-at="2016-02-12T05:26:49Z" finished-at="2016-02-12T05:28:20Z">
       <class name="com.webdriver.na.ebay.tests.EbayListingsTest">
-        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:com.webdriver.na.ebay.tests.EbayListingsTest@3d2656d3]" name="setUp" is-config="true" duration-ms="9790" started-at="2016-02-11T20:54:00Z" finished-at="2016-02-11T20:54:10Z">
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:com.webdriver.na.ebay.tests.EbayListingsTest@3d2656d3]" name="setUp" is-config="true" duration-ms="11223" started-at="2016-02-11T21:26:50Z" finished-at="2016-02-11T21:27:01Z">
           <params>
             <param index="0">
               <value>
@@ -107,7 +107,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="verifySearchListingsCount(java.lang.String)[pri:0, instance:com.webdriver.na.ebay.tests.EbayListingsTest@3d2656d3]" name="verifySearchListingsCount" duration-ms="28687" started-at="2016-02-11T20:54:10Z" data-provider="provider" finished-at="2016-02-11T20:54:39Z">
+        <test-method status="PASS" signature="verifySearchListingsCount(java.lang.String)[pri:0, instance:com.webdriver.na.ebay.tests.EbayListingsTest@3d2656d3]" name="verifySearchListingsCount" duration-ms="43134" started-at="2016-02-11T21:27:01Z" data-provider="provider" finished-at="2016-02-11T21:27:44Z">
           <params>
             <param index="0">
               <value>
@@ -118,11 +118,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifySearchListingsCount -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.webdriver.na.ebay.tests.EbayListingsTest@3d2656d3]" name="tearDown" is-config="true" duration-ms="655" started-at="2016-02-11T20:54:39Z" finished-at="2016-02-11T20:54:39Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.webdriver.na.ebay.tests.EbayListingsTest@3d2656d3]" name="tearDown" is-config="true" duration-ms="1089" started-at="2016-02-11T21:27:44Z" finished-at="2016-02-11T21:27:45Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:com.webdriver.na.ebay.tests.EbayListingsTest@3d2656d3]" name="setUp" is-config="true" duration-ms="10660" started-at="2016-02-11T20:54:39Z" finished-at="2016-02-11T20:54:50Z">
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:com.webdriver.na.ebay.tests.EbayListingsTest@3d2656d3]" name="setUp" is-config="true" duration-ms="9859" started-at="2016-02-11T21:27:45Z" finished-at="2016-02-11T21:27:55Z">
           <params>
             <param index="0">
               <value>
@@ -133,7 +133,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="FAIL" signature="verifySearchListingsCount(java.lang.String)[pri:0, instance:com.webdriver.na.ebay.tests.EbayListingsTest@3d2656d3]" name="verifySearchListingsCount" duration-ms="38740" started-at="2016-02-11T20:54:50Z" data-provider="provider" finished-at="2016-02-11T20:55:29Z">
+        <test-method status="FAIL" signature="verifySearchListingsCount(java.lang.String)[pri:0, instance:com.webdriver.na.ebay.tests.EbayListingsTest@3d2656d3]" name="verifySearchListingsCount" duration-ms="23957" started-at="2016-02-11T21:27:55Z" data-provider="provider" finished-at="2016-02-11T21:28:19Z">
           <params>
             <param index="0">
               <value>
@@ -177,7 +177,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifySearchListingsCount -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.webdriver.na.ebay.tests.EbayListingsTest@3d2656d3]" name="tearDown" is-config="true" duration-ms="862" started-at="2016-02-11T20:55:29Z" finished-at="2016-02-11T20:55:30Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.webdriver.na.ebay.tests.EbayListingsTest@3d2656d3]" name="tearDown" is-config="true" duration-ms="589" started-at="2016-02-11T21:28:19Z" finished-at="2016-02-11T21:28:20Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
