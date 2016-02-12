@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="2" verbose="0" name="Failed suite [EbayListingTestSuite]" parallel="tests">
+  <parameter name="browser" value="firefox"/>
+  <test name="EbayListingsTest_Chrome(failed)" parallel="tests">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="com.webdriver.na.ebay.tests.EbayListingsTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="verifySearchListingsCount" invocation-numbers="1"/>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.webdriver.na.ebay.tests.EbayListingsTest -->
+    </classes>
+  </test> <!-- EbayListingsTest_Chrome(failed) -->
+  <test name="EbayListingsTest_Firefox(failed)" parallel="tests">
+    <parameter name="browser" value="firefox"/>
+    <classes>
+      <class name="com.webdriver.na.ebay.tests.EbayListingsTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="verifySearchListingsCount" invocation-numbers="1"/>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.webdriver.na.ebay.tests.EbayListingsTest -->
+    </classes>
+  </test> <!-- EbayListingsTest_Firefox(failed) -->
+</suite> <!-- Failed suite [EbayListingTestSuite] -->

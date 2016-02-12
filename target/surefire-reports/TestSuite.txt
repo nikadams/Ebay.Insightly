@@ -1,0 +1,16 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 4, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 90.921 sec <<< FAILURE!
+verifySearchListingsCount(com.webdriver.na.ebay.tests.EbayListingsTest)  Time elapsed: 28.379 sec  <<< FAILURE!
+java.lang.AssertionError: Invalid listing count:0 expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at com.webdriver.na.ebay.tests.EbayListingsTest.verifySearchListingsCount(EbayListingsTest.java:65)
+verifySearchListingsCount(com.webdriver.na.ebay.tests.EbayListingsTest)  Time elapsed: 38.741 sec  <<< FAILURE!
+java.lang.AssertionError: Invalid listing count:0 expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at com.webdriver.na.ebay.tests.EbayListingsTest.verifySearchListingsCount(EbayListingsTest.java:65)
