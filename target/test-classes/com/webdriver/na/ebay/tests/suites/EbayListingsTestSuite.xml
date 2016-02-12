@@ -1,0 +1,17 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="EbayListingTestSuite" thread-count="2" parallel="tests" verbose="1"> 
+ 	<test name="EbayListingsTest_Chrome" > 
+ 	<parameter name="browser" value="chrome"/> 
+ 		<classes>
+ 			<class name="com.webdriver.na.ebay.tests.EbayListingsTest"> 
+   			</class>
+  		</classes> 
+ 	</test>
+ 	<test name="EbayListingsTest_Firefox" >  
+ 	<parameter name="browser" value="firefox"/>
+ 		<classes>
+ 			<class name="com.webdriver.na.ebay.tests.EbayListingsTest">     
+  			</class>
+  		</classes> 
+ 	</test>
+ </suite>
